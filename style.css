@@ -1,0 +1,40 @@
+img {
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+body {
+    text-align: center
+}
+
+.hobby {
+    background-color: linear-gradient(#17e6df 0%, #17e655 80%);
+}
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+    margin-top: 0px;
+}
+.menu{
+    list-style: none;
+    font-family: fantasy;
+    position: absolute;
+    top: 10px;
+    right: 0.1px;
+    z-index: 10;
+    cursor: pointer;
+    width: 571px; 
+}
+.list{
+    float: left;
+    color:magenta;
+    padding-top: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    padding-bottom: 5px;
+    font-family: cursive;
+    font-size: 20px;
+}
