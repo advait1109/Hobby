@@ -1,4 +1,4 @@
-img {
+#read {
     border-radius: 50%;
     height: 300px;
     width: 300px;
@@ -37,4 +37,23 @@ body {
     padding-bottom: 5px;
     font-family: cursive;
     font-size: 20px;
+}
+#dami{
+    height: 300px;
+    width: 200px;
+}
+
+#jk{
+    height: 300px;
+}
+.author{
+    margin: 50px;
+}
+#jk:hover{
+    height: 280px;
+    width: 280px;
+}
+#dami:hover{
+    height: 280px;
+    width: 180px;
 }
