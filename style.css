@@ -11,49 +11,55 @@ body {
 .hobby {
     background-color: linear-gradient(#17e6df 0%, #17e655 80%);
 }
+
 .line {
     height: 6px;
-    background-color: black;
     width: 70px;
     margin: 8px auto;
     margin-top: 0px;
+    background-color: black;
 }
-.menu{
-    list-style: none;
-    font-family: fantasy;
-    position: absolute;
-    top: 10px;
-    right: 0.1px;
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
     z-index: 10;
-    cursor: pointer;
-    width: 571px; 
+    background-color: black
 }
-.list{
-    float: left;
-    color:magenta;
-    padding-top: 5px;
-    padding-right: 7px;
-    padding-left: 7px;
-    padding-bottom: 5px;
+
+.list {
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: cursive;
     font-size: 20px;
 }
-#dami{
+
+#dami {
     height: 300px;
     width: 200px;
 }
 
-#jk{
+#jk {
     height: 300px;
 }
-.author{
+
+.author {
     margin: 50px;
 }
-#jk:hover{
+
+#jk:hover {
     height: 280px;
     width: 280px;
 }
-#dami:hover{
+
+#dami:hover {
     height: 280px;
     width: 180px;
+}
+.menu a{
+    color: white !important;
 }
